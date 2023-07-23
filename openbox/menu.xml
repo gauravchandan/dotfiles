@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+<!--	
+<menu id="apps-accessories-menu" label="Accessories">
+  <item label="Calculator">
+    <action name="Execute">
+      <command>gnome-calculator</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Character Map">
+    <action name="Execute">
+      <command>gnome-character-map</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Ark File Archiver">
+    <action name="Execute">
+      <command>ark</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+</menu>
+-->
+
+<menu id="apps-editors-menu" label="Editors">
+  <item label="Vim" icon="/home/gauravchandan/.icons/Tela-blue/scalable/apps/vim.svg">
+    <action name="Execute">
+      <command>kitty -e vim</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="VS Code" icon="/home/gauravchandan/.icons/Tela-blue/scalable/apps/code.svg">
+    <action name="Execute">
+      <command>code</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+</menu>
+
+<menu id="apps-term-menu" label="Terminals">
+  <item label="Alacritty" icon="/home/gauravchandan/.icons/Tela-blue/scalable/apps/Alacritty.svg">
+    <action name="Execute">
+      <command>alacritty</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Kitty" icon="/home/gauravchandan/.icons/Tela-blue/scalable/apps/kitty.svg">
+    <action name="Execute"><command>kitty</command></action>
+  </item>
+</menu>
+
+<menu id="apps-net-menu" label="Internet">
+  <item label="Firefox" icon="/home/gauravchandan/.icons/Tela-blue/scalable/apps/firefox.svg">
+    <action name="Execute">
+      <command>firefox</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+        <wmclass>Firefox</wmclass>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Brave" icon="/home/gauravchandan/.icons/Tela-blue/scalable/apps/brave.svg">
+    <action name="Execute">
+      <command>brave</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+        <wmclass>Brave</wmclass>
+      </startupnotify>
+    </action>
+  </item>
+</menu>
+
+<!--
+<menu id="apps-office-menu" label="Office">
+  <item label="OpenOffice Base">
+    <action name="Execute">
+      <command>ooffice -base</command>
+    </action>
+  </item>
+  <item label="OpenOffice Calc">
+    <action name="Execute">
+      <command>ooffice -calc</command>
+    </action>
+  </item>
+  <item label="OpenOffice Draw">
+    <action name="Execute">
+      <command>ooffice -draw</command>
+    </action>
+  </item>
+  <item label="OpenOffice Impress">
+    <action name="Execute">
+      <command>ooffice -impress</command>
+    </action>
+  </item>
+  <item label="OpenOffice Math">
+    <action name="Execute">
+      <command>ooffice -math</command>
+    </action>
+  </item>
+  <item label="OpenOffice Printer Administration">
+    <action name="Execute">
+      <command>ooffice-printeradmin</command>
+    </action>
+  </item>
+  <item label="OpenOffice Writer">
+    <action name="Execute">
+      <command>ooffice -writer</command>
+    </action>
+  </item>
+</menu>
+
+<menu id="apps-multimedia-menu" label="Multimedia">
+  <item label="Amarok">
+    <action name="Execute">
+      <command>amarok</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Rhythmbox">
+    <action name="Execute">
+      <command>rhythmbox</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="K3b">
+    <action name="Execute">
+      <command>k3b</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="MPlayer">
+    <action name="Execute">
+      <command>gmplayer</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+        <wmclass>MPlayer</wmclass>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Totem">
+    <action name="Execute">
+      <command>totem</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+</menu>
+-->
+<menu id="apps-fileman-menu" label="File Managers">
+	<item label="Thunar" icon="/home/gauravchandan/.icons/Tela-blue/scalable/apps/system-file-manager.svg">
+    <action name="Execute">
+      <command>Thunar</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Ranger" icon="/home/gauravchandan/.icons/Tela-blue/scalable/apps/terminal.svg">
+    <action name="Execute">
+      <command>ranger</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+</menu>
+
+<!--
+<menu id="apps-graphics-menu" label="Graphics">
+  <item label="Gimp">
+    <action name="Execute">
+      <command>gimp</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Gwenview">
+    <action name="Execute">
+      <command>gwenview</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Dia Diagram Editor">
+    <action name="Execute">
+      <command>dia</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Inkscape">
+    <action name="Execute">
+      <command>inkscape</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+</menu>
+-->
+
+<menu id="system-menu" label="System">
+  <item label="Openbox Configuration Manager" icon="/home/gauravchandan/.icons/Tela-blue/scalable/apps/obconf.svg">
+    <action name="Execute">
+      <command>obconf</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+  <item label="Network Configuration" icon="/home/gauravchandan/.icons/Tela-blue/scalable/apps/network-defaultroute.svg">
+    <action name="Execute">
+      <command>kitty -e nmtui</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="Reconfigure Openbox" icon="/home/gauravchandan/.icons/Tela-blue/scalable/apps/configurator.svg">
+    <action name="Reconfigure" />
+  </item>
+</menu>
+
+<menu id="leave-menu" label="Leave">
+	<item label="Shutdown" icon="/home/gauravchandan/.icons/Tela-blue/scalable/apps/system-shutdown.svg">
+    <action name="Execute">
+      <command>shutdown-script</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+  <item label="Restart" icon="/home/gauravchandan/.icons/Tela-blue/scalable/apps/system-reboot.svg">
+    <action name="Execute">
+      <command>reboot-script</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+  <item label="Lock" icon="/home/gauravchandan/.icons/Tela-blue/scalable/apps/system-lock-screen.svg">
+    <action name="Execute">
+      <command>lock-script</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+</menu>
+
+<menu id="root-menu" label="Openbox 3">
+  <separator label="Applications" />
+  <menu id="apps-editors-menu"/>
+  <menu id="apps-net-menu"/>
+  <menu id="apps-term-menu"/>
+  <menu id="apps-fileman-menu"/>
+  <separator label="System" />
+  <menu id="system-menu"/>
+  <separator />
+  <menu id="leave-menu" />
+</menu>
+
+</openbox_menu>
