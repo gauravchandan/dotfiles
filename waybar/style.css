@@ -1,0 +1,208 @@
+* {
+    border: none;
+    border-radius: 0px;
+    font-family: "JetBrainsMono Nerd Font";
+    font-weight: bold;
+    font-size: 12px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+    color: #b4befe;
+}
+
+tooltip {
+    background: #1e1e2e;
+    border-radius: 10px;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: #b4befe;
+    transition: 0.3s;
+    /* color: #81a1c1; */
+}
+
+tooltip label {
+    color: #b4befe;
+}
+
+#custom-launcher,
+#workspaces,
+#cpu,
+#memory,
+#temperature,
+#backlight,
+#clock,
+#custom-spotify-logo,
+#custom-spotify-title,
+#custom-spotify-time,
+#custom-spotify-prev,
+#custom-spotify-playpause,
+#custom-spotify-next,
+#network,
+#bluetooth,
+#pulseaudio,
+#pulseaudio.microphone,
+#battery,
+#custom-notification {
+    background: #1e1e2e;
+    border: solid 0.5px #bfbefe;
+    border-bottom: solid 2px #b4befe;
+}
+
+#custom-launcher {
+    border-radius: 10px 0 0 10px;
+    margin-left: 15px;
+    font-size: 17px;
+    padding-right: 12px;
+    padding-left: 10px;
+    border-right: 0px;
+}
+
+#workspaces {
+    background: #1e1e2e;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+#workspaces button{
+    margin: 1px;
+    padding: 1px;
+    color: #5b6078;
+}
+
+#workspaces button.active {
+    color: #b4befe;
+}
+
+#workspaces button.focused {
+}
+
+#workspaces button.urgent {
+}
+
+#workspaces button:hover {
+}
+
+#cpu {
+    border-right: 0px;
+    border-left: 0px;
+    padding-left: 8px;
+    padding-right: 10px;
+}
+
+#memory {
+    border-radius: 0px 10px 10px 0px;
+    border-left: 0px;
+    padding-right: 10px;
+}
+
+#temperature {
+    border-radius: 20px 0px 0px 20px;
+}
+
+#temperature.critical {
+    color: #eba0ac;
+}
+
+
+#clock {
+    border-radius: 10px 0 0 10px;
+    padding-left: 12px;
+    border-right: 0px;
+}
+
+#custom-spotify-logo {
+    padding-left: 25px;
+    padding-right: 12px;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+#custom-spotify-title {
+    border-right: 0px;
+    border-left: 0px;
+    padding-right: 15px;
+}
+
+#custom-spotify-time {
+    border-right: 0px;
+    border-left: 0px;
+    padding-right: 15px;
+}
+
+#custom-spotify-prev {
+    border-right: 0px;
+    border-left: 0px;
+    font-size: 15px;
+    padding-top: 1px;
+    padding-right: 3px;
+}
+
+#custom-spotify-playpause {
+    border-right: 0px;
+    border-left: 0px;
+    font-size: 14px;
+    padding-top: 1px;
+}
+
+#custom-spotify-next {
+    border-radius: 0px 10px 10px 0px;
+    font-size: 15px;
+    border-left: 0px;
+    padding-right: 5px;
+    padding-top: 1px;
+}
+
+#backlight {
+    border-radius: 10px 0px 0px 10px;
+    padding-left: 12px;
+    border-right: 0px;
+    padding-right: 10px;
+}
+
+#pulseaudio {
+    border-right: 0px;
+    border-left: 0px;
+    padding-right: 10px;
+}
+
+#pulseaudio.microphone {
+    padding-right: 10px;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+#network {
+    border-right: 0px;
+    border-left: 0px;
+    padding-right: 10px;
+}
+
+#bluetooth {
+    border-right: 0px;
+    border-left: 0px;
+    padding-right: 10px;
+} 
+
+#battery {
+    border-right: 0px;
+    border-left: 0px;
+    padding-right: 10px;
+}
+
+#battery.warning {
+    color: #f9e2af;
+}
+
+#battery.critical {
+    color: #f38ba8;
+}
+
+#custom-notification {
+    border-radius: 0px 10px 10px 0px;
+    font-size: 14px;
+    padding-right: 13px;
+    margin-right: 15px;
+    border-left: 0px;
+} 
